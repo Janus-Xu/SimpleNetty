@@ -1,4 +1,4 @@
-package com.janus.netty.com.janus.netty.client;
+package com.janus.netty.client;
 
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
@@ -6,7 +6,6 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.CharsetUtil;

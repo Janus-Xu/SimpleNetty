@@ -1,4 +1,4 @@
-package com.janus.netty.com.janus.netty.client;
+package com.janus.netty.client;
 
 import com.janus.netty.api.ConnectionWatchdog;
 import io.netty.util.HashedWheelTimer;
@@ -29,7 +29,7 @@ public class SimpleClient {
 
     private Bootstrap boot;
 
-    private final ConnectorIdleStateTrigger idleStateTrigger = new ConnectorIdleStateTrigger();
+    private final com.janus.netty.client.ConnectorIdleStateTrigger idleStateTrigger = new com.janus.netty.client.ConnectorIdleStateTrigger();
 
     public void connect(int port, String host) throws Exception {
 
